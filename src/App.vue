@@ -1,11 +1,12 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="食事管理アプリ"/>
     <img alt="eat logo" src="./assets/OIG4.jpg">
   </div>
 </template>
 
 <script>
+
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {

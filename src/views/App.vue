@@ -2,6 +2,7 @@
   <div id="app">
     <HelloWorld msg="食事管理アプリ"/>
     <img alt="eat logo" src="./assets/OIG4.jpg">
+
   </div>
 </template>
 

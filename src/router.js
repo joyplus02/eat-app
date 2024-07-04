@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import AppRouting from './views/components/AppRouting.vue'
+import Home from './Home.vue'
+import AppRouting from './components/AppRouting.vue'
 //
 // 他のコンポーネントは省略
 //

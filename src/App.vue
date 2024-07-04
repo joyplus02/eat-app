@@ -1,22 +1,19 @@
 <template>
   <div id="app">
-    <HelloWorld msg="食事管理アプリ"/>
+    <TopPage msg="食事管理アプリ"/>
     <img alt="eat logo" src="./assets/OIG4.jpg">
 
   </div>
 </template>
 
 <script>
+import { createApp } from 'vue';
+import TopPage from './components/TopPage.vue';
 
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+const app = createApp(TopPage);
+app.mount('#app');
 </script>
+
 
 <style>
 #app {

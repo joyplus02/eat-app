@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div class="TopPage">
+    <h1>{{msg}}</h1>
     <h3>食事管理</h3>
     <ul>
       <li><router-link to="/routing">Rounting Test</router-link></li>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'TopPage',
   props: {
     msg: String
   }

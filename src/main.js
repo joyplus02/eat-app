@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './views/App.vue'
+import App from './App'
 // ルーティングのために追加
 import app_router from './router'
 
